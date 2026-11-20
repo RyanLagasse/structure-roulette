@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Structure Roulette",
+    "description": "Break a block, spawn a random structure with real loot",
+    "uuid": "8d7b6f57-cb57-4b40-87dc-0b4d0b9c5d11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d2bdbf56-8d49-44dd-9d2b-f6f3e7d7bcb2",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ]
+}
